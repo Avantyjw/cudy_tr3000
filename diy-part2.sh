@@ -17,4 +17,4 @@ sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_genera
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
-sed -i 's/OpenWrt/Cudy/g' package/base-files/files/bin/config_generate
+sed -i 's/Lede/Cudy/g' package/base-files/files/bin/config_generate
