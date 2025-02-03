@@ -20,7 +20,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-l
   sed -i 's/LEDE/Cudy/g' package/base-files/luci2/bin/config_generate
 
 # Modify timezone
-sed -i 's/UTC/CST-8/g' package/base-files/luci2/bin/config_genera
+sed -i 's/UTC/CST-8/g' package/base-files/luci2/bin/config_generate
 
 # Modify default SSID name
 sed -i 's/LEDE/Cudy/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
