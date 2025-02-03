@@ -24,3 +24,4 @@ sed -i 's/UTC/CST-8/g' package/base-files/luci2/bin/config_genera
 
 # Modify default SSID name
 sed -i 's/LEDE/Cudy/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/US/CN/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
