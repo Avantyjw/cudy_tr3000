@@ -19,6 +19,11 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-l
 # Modify hostname
 sed -i 's/LEDE/Cudy/g' package/base-files/luci2/bin/config_generate
 
-# Modify default SSID name
+# Modify default SSID name 和 国家
 sed -i 's/LEDE/Cudy/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/US/CN/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+# Modify 内核
+sed -i 's/KERNEL_PATCHVER:=6.1/KERNEL_PATCHVER:=6.6/g' target/linux/rockchip/Makefile
+
+
